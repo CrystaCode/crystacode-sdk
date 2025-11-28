@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Sample/">
+    <Project Path="src/Sample/Crysta.Sdk.Sample.Client/Crysta.Sdk.Sample.Client.csproj" />
+    <Project Path="src/Sample/Crysta.Sdk.Sample/Crysta.Sdk.Sample.csproj" />
+  </Folder>
+  <Folder Name="/Sdk/">
+    <Project Path="src/Sdk/Crysta.Client.Blazor/Crysta.Client.Blazor.csproj" Id="6482f35b-6deb-45ce-9dca-ec3ac15db1fd" />
+    <Project Path="src/Sdk/Crysta.Client.Core/Crysta.Client.Core.csproj" Id="c8ffac6b-ba9f-492e-86b9-e99846754077" />
+  </Folder>
+</Solution>
