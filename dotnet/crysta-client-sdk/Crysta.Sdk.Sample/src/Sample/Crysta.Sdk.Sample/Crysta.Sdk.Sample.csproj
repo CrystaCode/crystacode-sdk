@@ -1,20 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Crysta.Sdk.Sample.Client\Crysta.Sdk.Sample.Client.csproj" />
-    <PackageReference Include="Jint" Version="4.4.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Crysta.Sdk.Sample.Client\Crysta.Sdk.Sample.Client.csproj" />
+		<PackageReference Include="Jint" Version="4.4.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Components\Pages\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Components\Pages\" />
+	</ItemGroup>
 
 </Project>
